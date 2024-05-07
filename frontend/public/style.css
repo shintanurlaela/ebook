@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 9vh;
+  box-shadow: rgba(0, 0, 0, 0.23) 0px 7px 15px -9px;
+}
+.logo {
+  font-size: 25px;
+  margin-top: -15px;
+  margin-left: 40px;
+  color: orange;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  width: 75%;
+}
+
+.nav-links li a {
+  color: #272343;
+  text-decoration: none; 
+}
+
+
+.nav-links li {
+  color: #272343;
+  font-size: 18px;
+  padding: 10px 9px;
+  margin: 0 -15px;
+  cursor: pointer;
+  text-transform: capitalize;
+  margin-right: 50px;
+  list-style-type: none;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 15%;
+}
+.hero h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #272343;
+}
+
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  /* place-items: center; */
+  background: none;
+}
+::selection{
+  background: none;
+  color: #fff;
+}
+.wrapper{
+  width: 380px;
+  background: #272343;
+  border-radius: 15px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.3);
+  place-items: center;
+  margin-top: 100px;
+  margin-left: 450px;
+}
+.wrapper form{
+  padding: 10px 30px 50px 30px;
+}
+.wrapper .title{
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  user-select: none;
+  border-radius: 15px 15px 0 0;
+}
+.form-floating{
+  color: #7f78ae;
+}
+
+.pencet{
+  margin-top: 3px;
+  margin-bottom: -20px;
+  color: #fff;
+}
+
+.pencet button{
+  width: 35%;
+  height: 40%;
+  margin-top: 15px;
+  color: #fff;
+  background: #6f689b;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: .2 ease-in;
+  font-weight: 400;
+}
+
+.pencet2{
+  margin-top: 3px;
+  margin-bottom: -20px;
+  color: #fff;
+}
+
+.pencet2 button{
+  width: 10%;
+  height: 10%;
+  margin-top: 15px;
+  color: #fff;
+  background: #272343;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: .2 ease-in;
+  font-weight: 400;
+}
